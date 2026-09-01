@@ -1,9 +1,4 @@
 """Codificadores RV32I: ParsedInstruction -> palabra de 32 bits.
-
-Valores de opcode/funct3/funct7 tomados de *The RISC-V Instruction Set
-Manual, Volume I: User-Level ISA*, v20191213, capitulo 2 (RV32I) y
-capitulo 24 (mapa de opcodes), cruzados empiricamente contra el
-toolchain oficial (ver docs/kit/vectores_ejemplo.txt y docs/plan.md).
 """
 from collections import namedtuple
 
